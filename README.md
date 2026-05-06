@@ -127,5 +127,4 @@ python mouth_training.py
 '''
 
 - Run the deployment code on the Rasberry Pi for real-time detection
-'''
-python deploy.py
+'''python deploy.py
