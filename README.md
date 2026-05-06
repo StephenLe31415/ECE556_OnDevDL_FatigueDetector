@@ -106,19 +106,19 @@ The system supports:
 1. Create a virtual environemnt in Python and 'cd' into that venv
 
 2. Install dependencies
-'pip install numpy opencv-python tflite-runtime matplotlib'
+`pip install numpy opencv-python tflite-runtime matplotlib`
 
 3. On Raspberry Pi:
-'sudo apt install python3-opencv'
+`sudo apt install python3-opencv`
 
 4. Clone this GitHub repo on your Raspberry Pi
 
 5. Run these commands in order:
 - Train the eye detection model using "cew" dataset
-'python eye_training.py'
+`python eye_training.py`
 
 - Train the mouth detection model using "yawn_dataset"
-'python mouth_training.py'
+`python mouth_training.py`
 
 - Run the deployment code on the Rasberry Pi for real-time detection
-'python deploy.py'
+`python deploy.py`
